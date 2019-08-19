@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css" />
   <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 600px)" />
   <title>Jan Magnusson</title>
 </head>
 
@@ -18,7 +19,7 @@
     <nav class="orange lighten-2">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#about" class="brand-logo">Jan Magnusson</a>
+          <a href="#about" class="brand-logo">Jan <span class="mobile">Magnusson</span></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger">
             <i class="material-icons">menu</i>
           </a>
@@ -50,270 +51,282 @@
     </li>
   </ul>
 
-  <!-- Work -->
-  <section>
-    <div class="container scrollspy" id="work">
-      <h3 id="work">Work</h3>
+  <div class="container-main">
 
-      <div class="card-content">
-        <p>
-          Norwegian Water Resources and Energy Directorate, 2015 - 2019
+    <!-- Work -->
+    <section>
+      <div class="container scrollspy" id="work">
+        <h3 id="work">Work</h3>
+
+        <div class="card-content">
+          <p>
+            Statkraft AS, 2019 - onwards
+            <br />
+            Oslo, Norway
+          </p>
+        </div>
+
+        <div class="card-content">
+          <p>
+            Norwegian Water Resources and Energy Directorate, 2015 - 2019
+            <br />
+            Oslo, Norway
+          </p>
+        </div>
+
+        <div class="card-content">
+          <p>
+            WSL Institute for Snow and Avalanche Research SLF, 2011 - 2015
+            <br />
+            Davos, Switzerland
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <div class="container scrollspy" id="education">
+        <h3>Education</h3>
+
+        <div class="card-content">
+          Phd in Hydrology, 2011
           <br />
-          Oslo, Norway
-        </p>
-      </div>
+          Swiss Federal Institute of Technology (ETH), Zürich, Switzerland
+        </div>
 
-      <div class="card-content">
-        <p>
-          WSL Institute for Snow and Avalanche Research SLF, 2011 - 2015
+        <br />
+
+        <div class="card-content">
+          MSc in Aquatic and Environmental engineering, 2006
           <br />
-          Davos, Switzerland
-        </p>
+          Uppsala University, Sweden
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Education -->
-  <section>
-    <div class="container scrollspy" id="education">
-      <h3>Education</h3>
+    <!-- Publictions -->
+    <section>
+      <div class="container scrollspy" id="publications">
+        <h3>Publications</h3>
 
-      <div class="card-content">
-        Phd in Hydrology, 2011
-        <br />
-        Swiss Federal Institute of Technology (ETH), Zürich, Switzerland
-      </div>
+        <div class="card-content">
+          <p>
+            Winstral A., J. Magnusson, M. Schirmer, T. Jonas; 2019; The bias-detecting ensemble: A new and efficient
+            technique for dynamically incorporating observations into physics-based, multilayer snow models;
+            Water Resources Research, 55, 613–631; <a href="https://doi.org/10.1029/2018WR024521" target="_blank" rel="noopener noreferrer">doi.org/10.1029/2018WR024521</a>
+          </p>
+        </div>
 
-      <br />
+        <div class="card-content">
+          <p>
+            Yang X., J. Magnusson, C-Y Xu; 2018; Transferability of regionalization methods under changing climate;
+            Journal of Hydrology, <a href="https://doi.org/10.1016/j.jhydrol.2018.10.030" target="_blank" rel="noopener noreferrer">doi.org/10.1016/j.jhydrol.2018.10.030</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        MSc in Aquatic and Environmental engineering, 2006
-        <br />
-        Uppsala University, Sweden
-      </div>
-    </div>
-  </section>
+        <div class="card-content">
+          <p>
+            Beniston, M., D. Farinotti, M. Stoffel, L. M. Andreassen, E. Coppola, N. Eckert, A. Fantini, F. Giacona, C.
+            Hauck, M. Huss, H. Huwald, M. Lehning, J.-I. López-Moreno, J. Magnusson, C. Marty, E. Morán-Tejéda, S. Morin,
+            M. Naaim, A. Provenzale, A. Rabatel, D. Six, J. Stötter, U. Strasser, S. Terzago, C. Vincent; 2018; The
+            European mountain cryosphere: a review of its current state, trends, and future challenges; The Cryosphere,
+            12, 759-794; <a href="https://doi.org/10.5194/tc-12-759-2018" target="_blank" rel="noopener noreferrer">doi.org/10.5194/tc-12-759-2018</a>
+          </p>
+        </div>
 
-  <!-- Publictions -->
-  <section>
-    <div class="container scrollspy" id="publications">
-      <h3>Publications</h3>
+        <div class="card-content">
+          <p>
+            Yang X., J. Magnusson, J. Rizzi, C-Y Xu; 2018; Runoff prediction in ungauged catchments in Norway:
+            comparison of regionalization approaches; Hydrology Research 49(2), 487-505. <a href="https://doi.org/10.2166/nh.2017.071" target="_blank" rel="noopener noreferrer">doi.org/10.2166/nh.2017.071</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Winstral A., J. Magnusson, M. Schirmer, T. Jonas; 2019; The bias-detecting ensemble: A new and efficient
-          technique for dynamically incorporating observations into physics-based, multilayer snow models;
-          Water Resources Research, 55, 613–631; https://doi.org/10.1029/2018WR024521
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Lussana C., T. Saloranta, T. Skaugen, J. Magnusson, O. E. Tveito, J. Andersen; 2018; seNorge2 daily
+            precipitation, an observational gridded dataset over Norway from 1957 to the present day; Earth Syst. Sci.
+            Data, 10, 235-249; <a href="https://doi.org/10.5194/essd-10-235-2018" target="_blank" rel="noopener noreferrer">doi.org/10.5194/essd-10-235-2018</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Yang X., J. Magnusson, C-Y Xu; 2018; Transferability of regionalization methods under changing climate;
-          Journal of Hydrology, https://doi.org/10.1016/j.jhydrol.2018.10.030.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Magnusson J., A. Winstral, A. S. Stordal, R. Essery, T. Jonas; 2017;
+            Improving physically based snow simulations by assimilating snow
+            depths using the particle filter; Water Resources Research; 53;
+            1125- 1143; <a href="https://doi.org/10.1002/2016WR019092" target="_blank" rel="noopener noreferrer">doi.org/10.1002/2016WR019092</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Beniston, M., D. Farinotti, M. Stoffel, L. M. Andreassen, E. Coppola, N. Eckert, A. Fantini, F. Giacona, C.
-          Hauck, M. Huss, H. Huwald, M. Lehning, J.-I. López-Moreno, J. Magnusson, C. Marty, E. Morán-Tejéda, S. Morin,
-          M. Naaim, A. Provenzale, A. Rabatel, D. Six, J. Stötter, U. Strasser, S. Terzago, C. Vincent; 2018; The
-          European mountain cryosphere: a review of its current state, trends, and future challenges; The Cryosphere,
-          12, 759-794; https://doi.org/10.5194/tc-12-759-2018.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Kenner R., J. Magnusson; 2017; Estimating the Effect of Different
+            Influencing Factors on Rock Glacier Development in Two Regions in
+            the Swiss Alps; Permafrost and Periglacial Processes; 28; 195-208;
+            <a href="https://doi.org/10.1002/ppp.1959" target="_blank" rel="noopener noreferrer">doi.org/10.1002/ppp.1959</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Yang X., J. Magnusson, J. Rizzi, C-Y Xu; 2018; Runoff prediction in ungauged catchments in Norway:
-          comparison of regionalization approaches; Hydrology Research 49(2), 487-505. DOI: 10.2166/nh.2017.071.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Griessinger N., J. Seibert, J. Magnusson, T. Jonas; 2016; Assessing
+            the benefit of snow data assimilation for runoff modeling in Alpine
+            catchments; Hydrol. Earth Syst. Sci.; 20; 3895-3905;
+            <a href="https://doi.org/10.5194/hess-20-3895-2016" target="_blank" rel="noopener noreferrer">doi.org/10.5194/hess-20-3895-2016</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Lussana C., T. Saloranta, T. Skaugen, J. Magnusson, O. E. Tveito, J. Andersen; 2018; seNorge2 daily
-          precipitation, an observational gridded dataset over Norway from 1957 to the present day; Earth Syst. Sci.
-          Data, 10, 235-249; https://doi.org/10.5194/essd-10-235-2018.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Magnusson J., N. Wever, R. Essery, N. Helbig, T. Jonas; 2015;
+            Evaluating snow models with varying process representations for
+            hydrological applications; Water Resources Research; 51; 2707-2723;
+            <a href="https://doi.org/10.1002/2014WR016498" target="_blank" rel="noopener noreferrer">doi.org/10.1002/2014WR016498</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Magnusson J., A. Winstral, A. S. Stordal, R. Essery, T. Jonas; 2017;
-          Improving physically based snow simulations by assimilating snow
-          depths using the particle filter; Water Resources Research; 53;
-          1125- 1143; doi:10.1002/2016WR019092.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Helbig N., A. van Herwijnen, J. Magnusson, T. Jonas; 2014;
+            Fractional snow-covered area parameterization over complex
+            topography; Hydrol. Earth Syst. Sci.; 19; 1339-1351;
+            <a href="https://doi.org/10.5194/hess-19-1339-2015" target="_blank" rel="noopener noreferrer">doi.org/10.5194/hess-19-1339-2015</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Kenner R., J. Magnusson; 2017; Estimating the Effect of Different
-          Influencing Factors on Rock Glacier Development in Two Regions in
-          the Swiss Alps; Permafrost and Periglacial Processes; 28; 195-208;
-          doi:10.1002/ppp.1959.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Magnusson J., D. Gustafsson, F. Hüsler, T. Jonas; 2014; Assimilation
+            of point SWE data into a distributed snow cover model comparing two
+            contrasting methods; Water Resources Research; 50; 7816-7835;
+            <a href="https://doi.org/10.1002/2014WR015302" target="_blank" rel="noopener noreferrer">doi.org/10.1002/2014WR015302</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Griessinger N., J. Seibert, J. Magnusson, T. Jonas; 2016; Assessing
-          the benefit of snow data assimilation for runoff modeling in Alpine
-          catchments; Hydrol. Earth Syst. Sci.; 20; 3895-3905;
-          doi:10.5194/hess-20-3895-2016.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Magnusson J., F. Kobierska, S. Huxol, M. Hayashi, T. Jonas, J.W.
+            Kirchner; 2014; Melt water driven stream and groundwater stage
+            fluctuations on a glacier forefield (Dammagletscher, Switzerland);
+            Hydrological Processes; 28; 823-836; <a href="https://doi.org/10.1002/hyp.9633" target="_blank" rel="noopener noreferrer">doi.org/10.1002/hyp.9633</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Magnusson J., N. Wever, R. Essery, N. Helbig, T. Jonas; 2015;
-          Evaluating snow models with varying process representations for
-          hydrological applications; Water Resources Research; 51; 2707-2723;
-          doi: 10.1002/2014WR016498.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Abdallah A., E. Willimann, K. Jasper, G. Felder, F. Herger, J.
+            Magnusson, R. Weingartner; 2013; Modelling the effects of land use
+            and climate change on hydrology in the Ursern Valley, Switzerland;
+            Hydrological Processes; 28; 3602-3614; <a href="https://doi.org/10.1002/hyp.9895" target="_blank" rel="noopener noreferrer">doi.org/10.1002/hyp.9895</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Helbig N., A. van Herwijnen, J. Magnusson, T. Jonas; 2014;
-          Fractional snow-covered area parameterization over complex
-          topography; Hydrol. Earth Syst. Sci.; 19; 1339-1351;
-          https://doi.org/10.5194/hess-19-1339-2015.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Kobierska F., T. Jonas, M. Zappa, M. Bavay, J. Magnusson, S.M.
+            Bernsaconi; 2013; Future runoff from a partly glacierized watershed
+            in Central Switzerland: A two-model approach; Advances in Water
+            Resources; 55; 204-214; <a href="https://doi.org/10.1016/j.advwatres.2012.07.024" target="_blank" rel="noopener noreferrer">doi.org/10.1016/j.advwatres.2012.07.024</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Magnusson J., D. Gustafsson, F. Hüsler, T. Jonas; 2014; Assimilation
-          of point SWE data into a distributed snow cover model comparing two
-          contrasting methods; Water Resources Research; 50; 7816-7835;
-          doi:10.1002/2014WR015302.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Magnusson J., T. Jonas, J.W. Kirchner; 2012; Temperature dynamics of
+            a proglacial stream: Identifying dominant energy balance components
+            and inferring spatially integrated hydraulic geometry; Water
+            Resources Research; 48; W06510; <a href="https://doi.org/10.1029/2011WR011378" target="_blank" rel="noopener noreferrer">doi.org/10.1029/2011WR011378</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Magnusson J., F. Kobierska, S. Huxol, M. Hayashi, T. Jonas, J.W.
-          Kirchner; 2014; Melt water driven stream and groundwater stage
-          fluctuations on a glacier forefield (Dammagletscher, Switzerland);
-          Hydrological Processes; 28; 823-836; doi:10.1002/hyp.9633.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Magnusson J., D. Farinotti, T. Jonas, M. Bavay; 2011; Quantitative
+            evaluation of different hydrological modelling approaches in a
+            partly glacierized Swiss watershed; Hydrological Processes; 25;
+            2071-2084; <a href="https://doi.org/10.1002/hyp.7958" target="_blank" rel="noopener noreferrer">doi.org/10.1002/hyp.7958</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Abdallah A., E. Willimann, K. Jasper, G. Felder, F. Herger, J.
-          Magnusson, R. Weingartner; 2013; Modelling the effects of land use
-          and climate change on hydrology in the Ursern Valley, Switzerland;
-          Hydrological Processes; 28; 3602-3614; doi:10.1002/hyp.9895.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Hindshaw R., E. Tipper, B. Reynolds, E. Lemarchand, J. Wiederhold,
+            J. Magnusson, S.M. Bernasconi, R. Kretzschmar, B. Bourdon; 2011;
+            Hydrological control of stream water chemistry in a glacial
+            catchment (Damma Glacier, Switzerland); Chemical Geology; 285;
+            215-230; <a href="https://doi.org/10.1016/j.chemgeo.2011.04.012" target="_blank" rel="noopener noreferrer">doi.org/10.1016/j.chemgeo.2011.04.012</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Kobierska F., T. Jonas, M. Zappa, M. Bavay, J. Magnusson, S.M.
-          Bernsaconi; 2013; Future runoff from a partly glacierized watershed
-          in Central Switzerland: A two-model approach; Advances in Water
-          Resources; 55; 204-214; doi:10.1016/j.advwatres.2012.07.024.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Bernasconi S.M., A. Bauder, B. Bourdon, I. Brunner, E. Bünemann, I.
+            Chris, N. Derungs, P. Edwards, D. Farinotti, B. Frey, E. Frossard,
+            G. Furrer, M. Gierga, H. Göransson, K. Gülland, F. Hagedorn, I.
+            Hajdas, R. Hindshaw, S. Ivy-Ochs, J. Jansa, T. Jonas, M. Kiczkac, R.
+            Kretzschmar, E. Lemarchand, J. Luster, J. Magnusson, E. Mitchell,
+            H.O. Venterink, M. Plötze, B. Reynolds, R.H. Smittenberg, M. Stähli,
+            F. Tamburini, E.T. Tipper, L. Wacker, M. Welc, J.G. Wiederhold, J.
+            Zeyer, S. Zimmermann, A. Zumsteg; 2011; Chemical and Biological
+            Gradients along the Damma Glacier Soil Chronosequence, Switzerland;
+            Vadose Zone Journal; 10; 867-883; <a href="https://doi.org/10.2136/vzj2010.0129" target="_blank" rel="noopener noreferrer">doi.org/10.2136/vzj2010.0129</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Magnusson J., T. Jonas, J.W. Kirchner; 2012; Temperature dynamics of
-          a proglacial stream: Identifying dominant energy balance components
-          and inferring spatially integrated hydraulic geometry; Water
-          Resources Research; 48; W06510; doi:10.1029/2011WR011378.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Kobierska F., T. Jonas, J. Magnusson, M. Zappa, M. Bavay, T.
+            Bosshard, F. Paul, S.M. Bernasconi; 2011; Climate change effects on
+            snow melt and discharge of a partly glacierized watershed in Central
+            Switzerland (SoilTrec Critical Zone Observatory); Applied
+            Geochemistry; 26; 60-62; <a href="https://doi.org/10.1016/j.apgeochem.2011.03.029" target="_blank" rel="noopener noreferrer">doi.org/10.1016/j.apgeochem.2011.03.029</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Magnusson J., D. Farinotti, T. Jonas, M. Bavay; 2011; Quantitative
-          evaluation of different hydrological modelling approaches in a
-          partly glacierized Swiss watershed; Hydrological Processes; 25;
-          2071-2084; doi:10.1002/hyp.7958.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Magnusson J., T. Jonas, I. Lopez-Moreno, M. Lehning; 2010; Snow
+            cover response to climate change in a high alpine and
+            half-glacierized basin in Switzerland; Hydrology Research; 41;
+            230-240; <a href="https://doi.org/10.2166/nh.2010.115" target="_blank" rel="noopener noreferrer">doi.org/10.2166/nh.2010.115</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Hindshaw R., E. Tipper, B. Reynolds, E. Lemarchand, J. Wiederhold,
-          J. Magnusson, S.M. Bernasconi, R. Kretzschmar, B. Bourdon; 2011;
-          Hydrological control of stream water chemistry in a glacial
-          catchment (Damma Glacier, Switzerland); Chemical Geology; 285;
-          215-230; doi:10.1016/j.chemgeo.2011.04.012.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Farinotti D., J. Magnusson, M. Huss, A. Bauder; 2010; Snow
+            accumulation distribution inferred from time-lapse photography and
+            simple modelling; Hydrological Processes; 24; 2087–2097;
+            <a href="https://doi.org/10.1002/hyp.7629" target="_blank" rel="noopener noreferrer">doi.org/10.1002/hyp.7629</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Bernasconi S.M., A. Bauder, B. Bourdon, I. Brunner, E. Bünemann, I.
-          Chris, N. Derungs, P. Edwards, D. Farinotti, B. Frey, E. Frossard,
-          G. Furrer, M. Gierga, H. Göransson, K. Gülland, F. Hagedorn, I.
-          Hajdas, R. Hindshaw, S. Ivy-Ochs, J. Jansa, T. Jonas, M. Kiczkac, R.
-          Kretzschmar, E. Lemarchand, J. Luster, J. Magnusson, E. Mitchell,
-          H.O. Venterink, M. Plötze, B. Reynolds, R.H. Smittenberg, M. Stähli,
-          F. Tamburini, E.T. Tipper, L. Wacker, M. Welc, J.G. Wiederhold, J.
-          Zeyer, S. Zimmermann, A. Zumsteg; 2011; Chemical and Biological
-          Gradients along the Damma Glacier Soil Chronosequence, Switzerland;
-          Vadose Zone Journal; 10; 867-883; doi:10.2136/vzj2010.0129.
-        </p>
-      </div>
+        <div class="card-content">
+          <p>
+            Jonas T., C. Marty, J. Magnusson; 2009; Estimating the snow water
+            equivalent from snow depth measurements in the Swiss Alps; 378;
+            161-167; Journal of Hydrology; <a href="https://doi.org/10.1016/j.jhydrol.2009.09.021" target="_blank" rel="noopener noreferrer">doi.org/10.1016/j.jhydrol.2009.09.021</a>
+          </p>
+        </div>
 
-      <div class="card-content">
-        <p>
-          Kobierska F., T. Jonas, J. Magnusson, M. Zappa, M. Bavay, T.
-          Bosshard, F. Paul, S.M. Bernasconi; 2011; Climate change effects on
-          snow melt and discharge of a partly glacierized watershed in Central
-          Switzerland (SoilTrec Critical Zone Observatory); Applied
-          Geochemistry; 26; 60-62; doi:10.1016/j.apgeochem.2011.03.029.
-        </p>
-      </div>
-
-      <div class="card-content">
-        <p>
-          Magnusson J., T. Jonas, I. Lopez-Moreno, M. Lehning; 2010; Snow
-          cover response to climate change in a high alpine and
-          half-glacierized basin in Switzerland; Hydrology Research; 41;
-          230-240; doi:10.2166/nh.2010.115.
-        </p>
-      </div>
-
-      <div class="card-content">
-        <p>
-          Farinotti D., J. Magnusson, M. Huss, A. Bauder; 2010; Snow
-          accumulation distribution inferred from time-lapse photography and
-          simple modelling; Hydrological Processes; 24; 2087–2097;
-          doi:10.1002/hyp.7629.
-        </p>
-      </div>
-
-      <div class="card-content">
-        <p>
-          Jonas T., C. Marty, J. Magnusson; 2009; Estimating the snow water
-          equivalent from snow depth measurements in the Swiss Alps; 378;
-          161-167; Journal of Hydrology; doi:10.1016/j.jhydrol.2009.09.021.
-        </p>
+        <div class="card-content">
+          <p>
+            Bernasconi S.M, I. Christl, I. Hajdas, S. Zimmermann, F. Hagedorn,
+            R.H. Smittenberg, G. Furrer, J. Zeyer, I. Brunner, B. Frey, M.
+            Plötze, A. Lapanje, P. Edwards, H.O. Venterink, H. Göransson, E.
+            Frossard, E. Bünemann, J. Jansa, F. Tamburini, M. Welc, E. Mitchell,
+            B. Bourdon, R. Kretzschmar, B. Reynolds, E. Lemarchand, J.
+            Wiederhold, E. Tipper, M. Kiczka, R. Hindshaw, M. Stähli, T. Jonas,
+            J. Magnusson, A. Bauder, D. Farinotti, M. Huss, L. Wacker, K.
+            Abbaspour; 2008; Weathering, soil formation and initial ecosystem
+            evolution on a glacier forefield: a case study from the Damma
+            Glacier, Switzerland; Minerology Magazine; 72; 19-22;
+            <a href="https://www.cambridge.org/core/journals/mineralogical-magazine/article/weathering-soil-formation-and-initial-ecosystem-evolution-on-a-glacier-forefield-a-case-study-from-the-damma-glacier-switzerland/274E06FE5D807C1467EF35D5C568E98B" target="_blank" rel="noopener noreferrer">doi.org/10.1180/minmag.2008.072.1.19</a>
+          </p>
+        </div>
       </div>
 
-      <div class="card-content">
-        <p>
-          Bernasconi S.M, I. Christl, I. Hajdas, S. Zimmermann, F. Hagedorn,
-          R.H. Smittenberg, G. Furrer, J. Zeyer, I. Brunner, B. Frey, M.
-          Plötze, A. Lapanje, P. Edwards, H.O. Venterink, H. Göransson, E.
-          Frossard, E. Bünemann, J. Jansa, F. Tamburini, M. Welc, E. Mitchell,
-          B. Bourdon, R. Kretzschmar, B. Reynolds, E. Lemarchand, J.
-          Wiederhold, E. Tipper, M. Kiczka, R. Hindshaw, M. Stähli, T. Jonas,
-          J. Magnusson, A. Bauder, D. Farinotti, M. Huss, L. Wacker, K.
-          Abbaspour; 2008; Weathering, soil formation and initial ecosystem
-          evolution on a glacier forefield: a case study from the Damma
-          Glacier, Switzerland; Minerology Magazine; 72; 19-22;
-          doi:10.1180/minmag.2008.072.1.19.
-        </p>
-      </div>
     </div>
 
     <br />
