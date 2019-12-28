@@ -5,13 +5,20 @@
   font-display: swap;
   src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
 body {
   padding: 0;
   margin: 0;
   font-size: 1.1rem;
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
-  background: url("/img/background-new.jpg") no-repeat center center fixed;
+  background: url("/img/background.jpg") no-repeat center center fixed;
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;
@@ -28,4 +35,7 @@ body {
   .mobile {
     display: none;
   }
+}
+.bold {
+  font-weight: bold;
 }
